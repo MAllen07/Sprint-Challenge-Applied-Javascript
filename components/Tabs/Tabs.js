@@ -8,7 +8,7 @@ class TabLink {
     
     // We need to find out if a user clicked 'all' cards or a specific category.  Follow the instructions below to accomplish this task:    
     
-    // Delete this comment block when you work on the if statement
+  
     // Check to see if this.tabData is equal to 'all'
     
     if(this.tabData === 'all'){
@@ -22,10 +22,9 @@ class TabLink {
       this.cards = document.querySelectorAll(`.card[data-tab='${this.tabData}']`);
     }
     
-    // Delete this comment block when you work on the if statement
 
      // Map over the newly converted NodeList we just created in our if statement above. Convert each this.cards element into a new instance of the TabCard class. Pass in a card object to the TabCard class. 
-     this.cards = Array.from(this.cards).map( tCard => new TabCard(this.cards));
+     this.cards = Array.from(this.cards).map( tcard => new TabCard(this.cards));
 
 
     // Add a click event that invokes this.selectTab
@@ -36,8 +35,6 @@ class TabLink {
 
   
   selectTab(){
-
-    const tabs = document.querySelectorAll('.tab');
     
 
     // Select all elements with the .tab class on them
