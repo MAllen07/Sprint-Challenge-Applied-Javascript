@@ -36,6 +36,7 @@ class TabLink {
 
   
   selectTab(){
+
     const tabs = document.querySelectorAll('.tab');
     
 
@@ -65,15 +66,15 @@ class TabCard {
     // Assign this.cardElement to the cardElement DOM reference
     this.cardElement = cardElement;
   }
-  }
-  selectCard(){
-    // Update the style of this.cardElement to display = "flex"
+  
+
+  selectCard() {
+    // Update the style of this.cardElement to dispßlay = "flex"
     this.cardElement.forEach(card => card.style.display = 'flex');
   }
-
 }
 
-}
+
 
 /* START HERE: 
 
@@ -86,6 +87,6 @@ class TabCard {
 */
 let tabs = document.querySelectorAll('.tab');
 
-tabs.forEach(function(tLink){
-  return new TabLink(tLink);
+tabs.forEach(function(tabLink){
+  return new TabLink(tabLink);
 });
