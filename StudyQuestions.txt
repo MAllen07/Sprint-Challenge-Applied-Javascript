@@ -11,6 +11,7 @@ What is an event listener?
 A function in a computer program that waits for an event to occur. 
 
 Why would we convert a NodeList into an Array?
+An Array has more methods.
 
  What is a component?
 Re-usable set of logic, behaviors and interface elements (UI or API). 
