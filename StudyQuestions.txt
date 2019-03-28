@@ -1,0 +1,17 @@
+
+What is the DOM?
+The Document Object Model (DOM) is an application programming interface (API) 
+for valid HTML and well-formed XML documents. It defines the logical structure of 
+documents and the way a document is accessed and manipulated.
+
+ What is an event?
+ Events occur when the user or the browser manipulates a page.
+
+What is an event listener?
+A function in a computer program that waits for an event to occur. 
+
+Why would we convert a NodeList into an Array?
+An Array has more methods.
+
+ What is a component?
+Re-usable set of logic, behaviors and interface elements (UI or API). 
